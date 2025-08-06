@@ -1,0 +1,27 @@
+.traffic-light {
+  width: 120px;
+  height: 320px;
+  background-color: #333; /* Dark background */
+  border-radius: 35px; /* Rounded corners */
+  border: 15px solid #111; /* Border */
+  margin: 50px auto; /* Center the traffic light */
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Circular shape */
+  margin: 20px auto; /* Spacing between lights */
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
