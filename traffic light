@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="traffic-light">
+  <div class="light red"></div>
+  <div class="light yellow"></div>
+  <div class="light green"></div>
+</div>
+</body>
+</html>
+
+
+.traffic-light {
+  width: 120px;
+  height: 320px;
+  background-color: #333; 
+  border-radius: 35px; 
+  border: 15px solid #111; 
+  margin: 50px auto; 
+
+.light {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  margin: 20px auto;
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
